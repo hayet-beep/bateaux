@@ -17,6 +17,10 @@ var features_polygonesbateaux_1 = format_polygonesbateaux_1.readFeatures(json_po
 var jsonSource_polygonesbateaux_1 = new ol.source.Vector({
     attributions: ' ',
 });
+
+const siteUrl = "https://archideko.sharepoint.com/sites/Bateauxciotatest";
+const listName = "Point Bateau";
+
 jsonSource_polygonesbateaux_1.addFeatures(features_polygonesbateaux_1);
 var lyr_polygonesbateaux_1 = new ol.layer.Vector({
                 declutter: false,
